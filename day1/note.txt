@@ -1,0 +1,6 @@
+Rules for writing identifiers:
+    1.no Spaces
+    2.no special characters(except _    $)
+    3.no num at start
+    4.no Keywords
+    
