@@ -9,7 +9,11 @@ class Input
         //for taking a string(full line)
         // sc.nextLine
         //sc.nextInt
-        //sc.nextFloat ....etc...
+        //sc.nextFloat 
+        //next().charAt();
+        //next();
+        //nextLine();
+        //nextBoolean();
         System.out.println(name); 
     }  
 }    

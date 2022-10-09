@@ -8,4 +8,4 @@ class Inc_dec
         System.out.println(a);
         System.out.println(++a);
     }
-}
+} 

@@ -1,0 +1,13 @@
+TAKING INPUT:
+	we can take input by Scanner class method:
+	SYNTAX:
+				Scanner object_name = new Scanner(System.in);// 'in'------>is a static built in variable
+				Variable_name = object_name.nextInt();  //this code takes int as input
+        	// sc.nextLine
+       		//sc.nextInt
+        	//sc.nextFloat 
+        	//next().charAt();
+        	//next();
+        	//nextLine();
+        	//nextBoolean();
+####################### new keyword is used to create an object
