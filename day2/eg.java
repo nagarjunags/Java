@@ -4,11 +4,11 @@ class Eg
     
     public static void main(String[] args)
     {
-        System.out.println(a);
         int a=10;
         System.out.println(Eg2.b);
         System.out.println(a);
         System.out.println(Eg.a);
+
     }
 }
 class Eg2
