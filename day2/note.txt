@@ -82,7 +82,10 @@ Operators:
         1.arithematic Operators (+,-,*,/,%):
             (*,/,%)  >>>more priority>>>   (+,-)
         2.assignment
+		=
         3.Relational operator
+		>,<,>=,<=
         4.logical operator
+		&&(and),||(or),~(not)
         5.inc/decrement operator
         6.comditional operator    
