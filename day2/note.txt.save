@@ -88,9 +88,8 @@ Operators:
         4.logical operator
 		&&(and),||(or),~(not)
         5.inc/decrement operator
-		1.  a++  (post increment)
-		2.  ++a	 (pre increment)
-		3.  a--  (post decrement)
-		4.  --a	 (pre decrement)
-        6.comditional operator    
-------------------------------------------------------------------------------------------
+		1.  a++(post increment)
+		2.  ++a(pre increment)
+		3.  a--(post decrement)
+		--a(pre decrement)
+       6.comditional operator    
