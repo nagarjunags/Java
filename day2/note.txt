@@ -16,49 +16,73 @@ Datatypes:
 
 ########### C uses ASCII java uses unicode
 
-
+-------------------------------------------------------------------------------------------------------
 variables:
         1.Local variables
             inside a method
         2.static variables/class variables
             inside a class                                                                          eg:static is a method
 
-                                    eg: 
-                                                    class Eg
-                                                    {
-                                                        static int b;
-                                                        int c;
-                                                        public static void main(String[] args)
-                                                        
-                                                        {
-                                                            int a;
-                                                            System.out.println(a);
-                                                        }
-                                                    }
+            eg: 
+                class Eg
+                {
+                    static int b;
+                    int c;
+                    public static void main(String[] args)
+                    
+                    {
+                        int a;
+                        System.out.println(a);
+                    }
+                }
 
 
 
-                                    here 'a' is local variable and 'b'is static variable 'c' is non static variable    
+                  here 'a' is local variable and 'b'is static variable 'c' is non static variable    
 
                 to access a static variable:  system.out.println(class_name.variable_name);
         3.non static variables
 
-
+--------------------------------------------------------------------------------------------------
 
 #######Inside a class only vriables,methods or initializers are to be written
 #########   a class connot be executed seperately on o=its own without a main method.
 
-
+-------------------------------------------------------------------------------------------------
 TYPECASTING:(reffer typecasting_widening.java and typecasting_narrowing.java)
     converting one type of data to other type of data
-                        int-->float
-                        int-->char
-    types of typecasting:
-        1.widening:
-            converting smaller datatype(IN TERMS OF BYTE) to bigger datatypes
-                eg: boolean --> int 
-                int a = 10;
-                float b = a;        //implicit conversion of the data by the compiler
-        2.Narrowing:
-            converting larger datatypes to smaller datatype
-                eg:                           
+        int-->float
+        int-->char
+    types of typecasting:(2 types):
+        1.premitive typecasting(only premitive datatypes can be converted)
+            1.widening:
+                converting smaller datatype(IN TERMS OF BYTE) to bigger datatypes
+                    eg: boolean --> int 
+                    int a = 10;
+                    float b = a;        //implicit conversion of the data by the compiler
+            2.Narrowing:
+                converting larger datatypes to smaller datatype
+                    eg:                           
+        2.Non premitive typecasting    (will be seen in OOP)                    
+-----------------------------------------------------------------------------------------------------        
+
+Literals:
+    2 types:
+        1.Premitive Literals:
+
+        2.non premitive Literals
+
+------------------------------------------------------------------------------------------------------
+Operators:
+    operand wise:
+        1.Unary Operators    
+        2.binary Operators   
+        3.tertiary Operators
+    task wise:
+        1.arithematic Operators (+,-,*,/,%):
+            (*,/,%)  >>>more priority>>>   (+,-)
+        2.assignment
+        3.Relational operator
+        4.logical operator
+        5.inc/decrement operator
+        6.comditional operator    

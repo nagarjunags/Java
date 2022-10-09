@@ -10,7 +10,8 @@ class arithematic
         System.out.println(a-b);
         System.out.print("product=");
         System.out.println(a*b);*/
-      
+    
+    
     }
     
 }
