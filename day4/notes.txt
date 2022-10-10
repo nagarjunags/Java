@@ -1,0 +1,3 @@
+SWITCH:
+    --->no boolean can be passede to SWITCH
+    --->no variable can be passed to Cases
