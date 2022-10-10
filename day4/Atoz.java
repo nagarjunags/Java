@@ -5,7 +5,7 @@ class Atoz
     char a='a';
     do
     {
-        System.out.println(a);
+        System.out.print(a+" ");
         a+=1;
     }
     while(a<='z');
