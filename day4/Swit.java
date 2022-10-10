@@ -1,26 +1,13 @@
-SWITCH:
-    --->no boolean can be passede to SWITCH
-    --->no variable can be passed to Cases
-
-    Syntax:
-        Switc(n):
-            
-            case(condition):
-                {
-                    statements;
-                }
-            case(condition):
-                {
-                    statements;
-                }    
-    eg:
-        class Swit 
+import java.util.*;
+class Swit 
 {
     public static void main(String[]args)
     {
         int n;
         Scanner nn = new Scanner(System.in);
         n=nn.nextInt();
+        boolean repeat =true;
+        while(repeat)
         switch(n)
         {
             case 1:
@@ -36,11 +23,3 @@ SWITCH:
     }
     
 }
-
-
-
-LOOPS:
-    for
-    while
-    do while
-    for each
