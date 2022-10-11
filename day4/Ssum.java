@@ -1,15 +1,19 @@
+import java.util.*;
 class Ssum 
 {
     public static void main(String[]args)
     {
-        int n=1234;
-        int sum;
+        long n;
+        Scanner nn = new Scanner(System.in);
+        System.out.print("Enter the number:");
+        n=nn.nextLong();
+        long sum;
         do
         {
             sum=0;
             while(n>0)
             {
-                int r=n%10;
+                long r=n%10;
                 sum+=r;
                 n/=10;
             }
