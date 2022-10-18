@@ -10,9 +10,9 @@ class Variable_shadowing
 {
     public static void main(String[]args)
     {
-        A obj = new B();
+        A obj = new B();//variable Shadowing
         System.out.println(obj.a);
-        B abj = new B();
+        B abj = new B();//variable Shadowing 
         System.out.println(abj.a);
     }
 }
