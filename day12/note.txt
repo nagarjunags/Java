@@ -1,0 +1,5 @@
+->method override is only possible for non static methods.
+when a method of parent class is overrided in the child class then even after upcasting,the child class method is executed
+
+if we implement this for Static method,then it is called method hiding
+->and in this scenario,the method is executed according to refference var type

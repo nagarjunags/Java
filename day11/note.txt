@@ -1,0 +1,61 @@
+IS a relation
+    Inheriatance
+        the relation between parent class and ______ is built by the extends keyword.
+
+    types of inheritance:
+        1.Single level
+        2.Multi level
+        3.hierarchical
+        4.multiple
+        5.hybrid
+
+single level inheritance:        
+_________________
+|     fATHER     |
+|________________|
+        |
+        |
+       \|/
+__________________
+|   SON           |
+|_________________|
+
+
+Multi level inheritance
+
+       
+_________________
+|     fATHER     |
+|________________|
+        |
+        |
+       \|/
+__________________
+|   SON           |
+|_________________|
+        |
+        |
+       \|/
+__________________
+|grand SON        |
+|_________________|       
+
+
+eg: University
+    college extends University
+        department extends college
+
+
+https://www.javatpoint.com/inheritance-in-java        
+
+
+
+UPCASTING&DOWNCASTING:
+    Generelization(up advantage)
+    Specialization(down casting advantage)
+
+
+
+Class cast exception:*******************************************************
+    when we downcast without upcasting that perticular Class//////instance of operator
+

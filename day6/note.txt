@@ -1,0 +1,50 @@
+METHODS/function:
+    syntax:
+    [access modifier/specifiers][modifier]returntype methodname(args)
+    {
+        //Statements;
+    }
+
+    Access modifier:
+        private
+        public
+        protected
+        default
+    Modifiers:
+        static
+        final
+        abstract 
+        volatile
+        synchronize
+        tansient
+            default is non static
+
+    nethod_name(args) --->method name with argument method approach   
+    eg:reffer Method.java
+-----------------------------------------------------------------------------------------------------------
+    #######non static method cant be called in a static method without the object refferences
+##########  new keyword is also an operator,it creates a block of memory.It is called an object.and it is created in heap area.
+
+
+OBJECTS(emtity/instance):
+    instance of a class(block of memory created by new keyword)
+    every object has behaviour and Attributes
+
+    Syntax to create Object:
+        Pen a=new Class_name();         //creates a block of data in the heap
+                                        //the object address can be stored in the variable whose type is Pen type***
+
+--------------------------------------------------------------------------------------
+CLASSES:
+    class is used for object specification.
+    classes contains 
+        1.variables
+        2.METHODS
+        3.Initializers
+        
+-----------------------------------------------------------------------------------
+CONSTRUCTORS;
+    Syntax: 
+
+
+
