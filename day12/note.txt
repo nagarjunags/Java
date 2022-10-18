@@ -3,3 +3,19 @@ when a method of parent class is overrided in the child class then even after up
 
 if we implement this for Static method,then it is called method hiding
 ->and in this scenario,the method is executed according to refference var type
+
+
+
+
+POLYMORPHISM:(many forms)
+    object showing different behaviour and attributes.
+    two types:
+        1.Compiletime polymorphism
+            ->method overloading
+                    it comes under the compiletime polymorphism because ,binding is done during compiling
+            ->method hiding
+            ->Variable shadowing
+            ->constructor overloading
+        2.runtime polymorphism
+            =>method Overriding
+                because of late binding.(binding during runtime by jvm)
