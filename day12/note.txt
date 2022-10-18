@@ -20,4 +20,4 @@ POLYMORPHISM:(many forms)
             =>method Overriding
                 because of late binding.(binding during runtime by jvm)
 DATA ABSTRACTION:(with the help of class and interface)
-    Hiding the implementation and showing the functionality is called data abstraction
+    Hiding the implementation and showing the functionality is called data abstraction.
