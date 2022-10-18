@@ -29,3 +29,21 @@ DATA ABSTRACTION:(with the help of class and interface)
     concrete method and abstract method
     
     For abstract class we cant create object
+    either you should define the body of the abstract method or you should make child class also a abstract class
+    
+    
+
+CONSTRUCTOR:
+    constructor cant be inherited using extends
+    to use parent class constructor in child constructor we use super() keyword.
+    super keyword is implicitely included bby the compiler if the class is of no orgument constructor.
+
+
+
+INTERFACE:
+    Class to class ------->extends
+    interface to interface------>extends
+    class to interface ------>implements
+   ---->   implement symbol
+    -> extends symbol
+ ###ABSTRACT METHOD CANT BE A STATIC FINAL AND PRIVATE
