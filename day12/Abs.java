@@ -22,6 +22,7 @@ public class Abs
         a.m1();
         B b = new B();
         b.m1();
-        //B c = new A();-----------ERROR(we cant create object for abstract class)
+        //B c = new A();-----------ERROR(we cant create object for abstract class)-----------------------
     }
 }
+ 

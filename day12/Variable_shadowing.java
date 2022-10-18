@@ -16,3 +16,4 @@ class Variable_shadowing
         System.out.println(abj.a);
     }
 }
+                        
