@@ -1,5 +1,6 @@
 //example program for Interface3
-interface A 
+
+/*interface A 
 {
     void m1();//implicitely public abstract is given  
 }
@@ -19,3 +20,20 @@ public class Inter
     }
 }
 
+--------------------------------OR------------------------------------------- */
+interface A
+{
+    void m1();
+}
+abstract class B implements A
+{
+
+}
+class C extends B
+{
+    public void m1()
+    {
+        System.out.println("m1");
+    }
+}
+ 
