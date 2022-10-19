@@ -1,1 +1,3 @@
-b
+(System.in);
+        int n = aa.nextInt();
+        
