@@ -1,0 +1,11 @@
+ARRAY:
+    array is a group of data with similar datatype(homogeneous data)
+    index starts from 0 to -n
+    fixed size
+    instanciation:creation of instance(instance==object=true)
+        new int[size];//instanciation
+
+
+
+one another to another
+second largest number using array
