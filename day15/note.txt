@@ -1,0 +1,58 @@
+                <<iterable>>
+                <<collection>>
+              |^      |^      |^  
+          <<list>> <<set>> <<Queue>>      
+          
+arraylist  is predefined class belongs to util paackage....capacity is 10         
+
+
+the new collection size = ((cc*3)/2)+1 ---------cc=current capacity
+
+Underlined datastructure array is resizable array
+in arraylist we add data in sequential manner
+
+linked list underlying datastructure is doubly linked lidt
+
+var
+constructor
+method
+
+OOPS
+
+part-2
+  method overriding
+  what is encapsulation
+        private member of the class is acccessed by using public..._____
+  Inheritacne
+  how many premitive identifier
+  rules of identifier
+  prime numbers
+  types of constructors
+  pillars of OOPS
+  local variable
+  jvm-full form
+
+-----------------------------------------------------------------------------------------------------
+iterator
+inumeraTOR
+ListIterate
+wrapper class 
+  for every premitive datatype there is a non premitive datatypr
+
+Auto boxing---converting premitive to non premitivea 
+Auto unbox
+
+####legacy classes vector and setiu
+SET is a sub interfqace of collection:
+  implements:Hashset,Linkedhashset,
+
+
+
+Hashset doesnt allow duplication because it depends on hashtable(underlying datastructurec)
+initial capacity of hashset is 16.
+  fill ratio or load factor=
+
+
+
+  treeset underlying datastructure is binary tree
+  

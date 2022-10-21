@@ -1,0 +1,20 @@
+
+import java.util.ArrayList;
+class ArrayList1
+
+{
+	public static void main(String[]args)
+	{
+		ArrayList a =new ArrayList();//ctreated with initial capacity =10
+		ArrayList b =new ArrayList(20);//userdefined capacity
+		a.add(10);
+		a.add(20);
+		System.out.println(a);
+		System.out.println(a.isEmpty());
+		//a.clear();
+		//System.out.println(a.isEmpty());
+		a.add(1,50);
+		a.set(2, 500);
+		a.addAll(a);		
+	}
+}

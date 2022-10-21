@@ -1,0 +1,33 @@
+2-D array
+    syntax:
+        int[][] a = new int[2][2]
+
+------------------------------------------------------------------------------------------------------------
+STRING:
+    ->pre defined class
+    ->immutable
+    ->for string literals implicitely an object is created in scp
+
+    ####scp==String constant pole,it is a part of the heap area
+
+    eg:if two string literals are crearted with the same value but with different variable name,
+      (or refference variable name),it will store the same address of the primarily created object.
+ 
+ Methods of String class:
+        length()
+        toUpperCase()
+        toLowerCase()
+        indexOf()
+        lastIndexof()
+        startsWith()
+        endsWith()//can only take strings
+        contains()//can take only strings
+        substring()//takes index value
+        charAT()//TAKES INDEX VALUE
+        indexOf()//takes the string value
+        toCharArrray()//no arg
+        
+
+
+
+--------------------------------------------------------------------------------------------------------------

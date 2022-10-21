@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author nagarjun
- *
- */
-module training {
-}
