@@ -17,7 +17,7 @@ class Add_method
         int b = aa.nextInt();
         Add_method d = new Add_method();
         int x = d.add(a, b);// a and b are actual arguments
-        System.out.println("Sum="+x);
+        System.out.println("Sum="+x);//change
 
     }
     
