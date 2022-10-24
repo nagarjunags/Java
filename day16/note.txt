@@ -1,0 +1,25 @@
+Throwable//Super class
+    Excepption(inhrits Throwable)
+            Compiletime/Checked exception
+            1.Filenotfound Excepption
+            2.ClassNotFound Excepption
+            3.Interupted Excepption
+            4.Io exception
+
+            INDIRECTLE INHERITED(runtime exception/unchecked exception)
+            1.ArithematicException
+            2.Arrayindexoutbund Exception
+            3.Class cast exception
+
+
+
+try
+{
+    ------
+    ------
+}
+catch
+{
+    ---------
+    --------
+}
